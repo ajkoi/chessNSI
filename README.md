@@ -1,0 +1,2 @@
+# chessNSI
+an scholar project
