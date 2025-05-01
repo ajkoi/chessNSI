@@ -1,9 +1,10 @@
 .menu{
-    height: 600px;
+    height: 99%;
     width: 250px;
     position: fixed;
     top: 0;
     left: 0;
+    /*margin-right: 10px;*/
     border: 5px solid rgb(105,146,62);
     background-color: rgb(75,72,71);
 }
