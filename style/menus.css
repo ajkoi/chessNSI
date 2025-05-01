@@ -13,13 +13,15 @@
     margin: 0;
     padding: 0;
 }
+.menu li {
+    font-size: 20px;
+}
 
 .menu a{
     display: block;
     text-decoration: none;
     color:#cdd6f4;
-    padding-left: 10px;
-    padding-right: 15px;
+    padding: 10px 15px 10px 10px;
 }
 .menu a:hover{
     background: #313244;
@@ -28,4 +30,5 @@
 .div_img{
     border: 5px solid rgb(78,120,55);
     background-color:rgb(105,146,62);
+    margin-bottom: 10px;
 }
