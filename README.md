@@ -3,6 +3,11 @@
 
 ### kekifaufére:
 - [ ] le squelette de la page
+  - [ ] Les menus
+  - [ ] Les pubs
 - [ ] le jeu d'échecs intégré
+  - [ ] Séparation en plus petites taches
 - [ ] le formulaire de login
+  - [ ] Séparation en plus petites taches
 - [ ] le fil de news
+  - [ ] Séparation en plus petites taches
