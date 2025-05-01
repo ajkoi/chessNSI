@@ -1,0 +1,43 @@
+#layout {
+    display: table;
+    clear: both;
+    content: "";
+    background: #11111b;
+    color: #cdd6f4;
+}
+#menu {
+    position: fixed;
+    top: 0;
+    background: #181825;
+    float: left;
+    text-align: left;
+    left: 0;
+    height: 100%;
+    width: 75px;
+    padding-top: 20px;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu a{
+    display: block;
+    text-decoration: none;
+    color:#cdd6f4;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+#menu a:hover{
+    background: #313244;
+}
+
+#text_principal {
+    width: 80%;
+    float: none;
+    text-align: justify;
+    margin-left: 75px;
+    padding: 10px;
+}
+
