@@ -1,15 +1,30 @@
-div#menu {
-    width: 30%;
-    border-top-width: 5px;
-    border-top-style: solid;
-    border-top-color: black;
-    border-right-width: 5px;
-    border-right-style: solid;
-    border-right-color: black;
-    border-left-width: 5px;
-    border-left-style: solid;
-    border-left-color: black;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
+#layout {
+    display: table;
+    clear: both;
+    content: "";
+    background: #11111b;
+    color: #cdd6f4;
 }
+#menu {
+    height:100%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background: #181825;
+    float: left;
+    text-align: left;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#text_principal {
+    width: 80%;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+}
+
