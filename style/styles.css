@@ -6,10 +6,10 @@
     top: 0;
     margin-left: 250px;
     margin-top: 0;
-    padding-left: 10px;
     border: 5px solid rgb(78,120,55);
     background-color: rgb(44,43,41);
     text-align: justify;
+    padding: 20px;
     color: #cdd6f4;
 }
 
