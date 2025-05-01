@@ -1,20 +1,15 @@
-#layout {
-    display: table;
-    clear: both;
-    content: "";
-    background: #11111b;
-    color: #cdd6f4;
-}
 
-
-#text_principal {
-    float: none;
+.text{
+    /*height: 100%;*/
+    /*width: 100%;*/
+    top: 0;
+    left: 259px;
+    margin-left: 250px;
+    padding-left: 10px;
+    border: 5px solid rgb(78,120,55);
+    background-color: rgb(44,43,41);
     text-align: justify;
-    margin-left: 75px;
-    padding: 10px;
+
 }
 
-#text_principal {
-    margin-right: 50px;
-}
 

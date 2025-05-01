@@ -1,7 +1,7 @@
 .menu{
     height: 600px;
     width: 250px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     border: 5px solid rgb(105,146,62);
