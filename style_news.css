@@ -11,7 +11,7 @@
 
 .div_2{
     height: 600px;
-    width: 750px;
+    width: 1000px;
     position: absolute;
     top: 0px;
     left: 259px;
@@ -19,13 +19,22 @@
     background-color: rgb(44,43,41);
 }
 
-
-
-#p{
-    font-style: italic;
-    color: rgb(205, 18, 189);
+.div_img{
+    border: 5px solid rgb(78,120,55);
+    background-color:rgb(105,146,62);
 }
+
+img{
+    width: 200px;
+}
+
+
 
 a{
     color:aqua;
+}
+
+.a_bandeau{
+    color: white;
+    font-family: "JetBrainsMono-Regular.ttf";
 }
