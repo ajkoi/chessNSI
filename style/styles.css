@@ -5,7 +5,7 @@
     background: #11111b;
     color: #cdd6f4;
 }
-#menu {
+#menu2 {
     position: fixed;
     top: 0;
     background: #181825;
@@ -34,10 +34,13 @@
 }
 
 #text_principal {
-    width: 80%;
     float: none;
     text-align: justify;
     margin-left: 75px;
     padding: 10px;
+}
+
+#text_principal {
+    margin-right: 50px;
 }
 

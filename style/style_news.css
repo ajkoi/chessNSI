@@ -1,19 +1,10 @@
-.div_1{
-    height: 600px;
-    width: 250px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 5px solid rgb(105,146,62);
-    background-color: rgb(75,72,71);
-}
 
 
 .div_2{
     height: 600px;
     width: 1000px;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 259px;
     border: 5px solid rgb(78,120,55);
     background-color: rgb(44,43,41);
