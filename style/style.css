@@ -29,11 +29,11 @@
     left:219px;
     /*margin-left: 5px;*/
     margin: 0;
-    border: 5px solid rgb(78,120,55);
+    border: 5px solid var(--var_complement);
     background-color: var(--var_main);
     text-align: justify;
     padding: 20px;
-    color: #cdd6f4;
+    color: var(--var_text);
 }
 
 
