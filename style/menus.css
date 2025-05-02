@@ -7,15 +7,19 @@
     /*margin-right: 10px;*/
     border: 5px solid rgb(105,146,62);
     background-color: rgb(75,72,71);
+    /*font-family: BigBlue, monospace;*/
+
 }
 
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
 .menu li {
     font-size: 25px;
+
 }
 
 .menu a{
