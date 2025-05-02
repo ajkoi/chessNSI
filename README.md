@@ -10,7 +10,10 @@
 - [ ] le formulaire de login
   - [ ] Séparation en plus petites taches
 - [ ] le fil de news
-  - [ ] Séparation en plus petites taches
+  - [ ] Capter des news
+  - [ ] mettre en forme la page
 - [ ] Les couleures
   - [ ] Les palettes
+    - [ ] dark theme
+    - [ ] light theme
   - [ ] Un boutton pour changer de couleur
