@@ -1,10 +1,11 @@
 /*dark theme */
 :root {
-    --vartest: red;
+    --var_main: red;
+    --var_
 }
 
 .light_theme{
-    --vartest: 3;
+    --var_main: 3;
 }
 
 @font-face {
