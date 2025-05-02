@@ -10,11 +10,11 @@
 
 @font-face {
     font-family: DepartureMono;
-    src: url("fonts/DepartureMonoNerdFont-Regular.otf");
+    src: url("../fonts/departure.otf");
 }
 @font-face {
-    font-family: BigBlue;
-    src: url(fonts/BigBlueTermPlusNerdFont-Regular.ttf);
+    font-family: symbols;
+    src: url("../fonts/symbols.ttf");
 }
 
 .text{
