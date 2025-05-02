@@ -11,3 +11,6 @@
   - [ ] Séparation en plus petites taches
 - [ ] le fil de news
   - [ ] Séparation en plus petites taches
+- [ ] Les couleures
+  - [ ] Les palettes
+  - [ ] Un boutton pour changer de couleur
