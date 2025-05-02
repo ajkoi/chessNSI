@@ -52,6 +52,10 @@
 
 .menu button{
     font-family: symbols, monospace;
+    background-color: var(--var_main_bandeau);
+    border: None;
+    color: white;
+    font-size: 40px;
 }
 
 .div_img{
