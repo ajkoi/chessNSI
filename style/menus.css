@@ -7,7 +7,7 @@
     --var_a_hover: rgb(48, 52, 70);
 }
 
-.light_theme{
+.light-theme{
     --var_main_bandeau: rgb(127, 132, 156);
     --var_complement_bandeau: rgb(23, 146, 153);
     --var_img_bandeau: rgb(139, 213, 202);
@@ -52,6 +52,10 @@
 
 .menu button{
     font-family: symbols, monospace;
+    background-color: var(--var_main_bandeau);
+    border: None;
+    color: white;
+    font-size: 40px;
 }
 
 .div_img{
