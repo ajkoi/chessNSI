@@ -1,11 +1,14 @@
 /*dark theme */
 :root {
-    --var_main: red;
-    --var_
+    --var_main: rgb(17, 17, 27);
+    --var_complement: rgb(220, 138, 120);
+    --var_text: rgb(205, 214, 244);
 }
 
 .light_theme{
-    --var_main: 3;
+    --var_main: rgb(205, 214, 244);
+    --var_complement: rgb(23, 146, 153);
+    --var_text: rgb(17, 17, 27);
 }
 
 @font-face {
@@ -27,7 +30,7 @@
     /*margin-left: 5px;*/
     margin: 0;
     border: 5px solid rgb(78,120,55);
-    background-color: rgb(44,43,41);
+    background-color: var(--var_main);
     text-align: justify;
     padding: 20px;
     color: #cdd6f4;
