@@ -5,9 +5,9 @@ function initThemeSwitcher() {
 
         // Changer le texte du bouton en fonction du mode
         if (document.body.classList.contains('dark-theme')) {
-            button.textContent = 'Passer en mode clair';
+            button.textContent = '';
         } else {
-            button.textContent = 'Passer en mode sombre';
+            button.textContent = '';
         }
     });
 }

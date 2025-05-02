@@ -7,7 +7,7 @@
     /*margin-right: 10px;*/
     border: 5px solid rgb(105,146,62);
     background-color: rgb(75,72,71);
-    /*font-family: BigBlue, monospace;*/
+    font-family: DepartureMono, monospace;
 
 }
 
@@ -32,6 +32,10 @@
     background: #313244;
 }
 
+.menu button{
+    font-family: symbols, monospace;
+}
+
 .div_img{
     border: 5px solid rgb(77, 119, 55);
     background-color: rgb(104, 145, 62);
@@ -46,3 +50,4 @@
 .div_img a:hover{
     background-color: rgb(104, 145, 62);
 }
+
