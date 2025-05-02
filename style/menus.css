@@ -8,7 +8,7 @@
 }
 
 .light_theme{
-    --var_main_bandeau: rgb(127, 132, 156);
+    --var_main_bandeau: rgb(153, 209, 219);
     --var_complement_bandeau: rgb(23, 146, 153);
     --var_img_bandeau: rgb(139, 213, 202);
     --var_text_bandeau: rgb(17, 17, 27);
