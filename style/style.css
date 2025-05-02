@@ -1,9 +1,8 @@
+/*dark theme */
 :root {
     --vartest: red;
 }
-.dark-theme{
-    --vartest: blue;
-}
+
 .light_theme{
     --vartest: 3;
 }
