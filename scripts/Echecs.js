@@ -14,3 +14,15 @@ let chessboard = [
 
 let player = 0
 let tour = 1
+
+function jouerCoup (startTile, endTile) {
+    /*
+    * startTile: tuple(int, int)
+    * endTile: tuple(int, int) */
+    chessboard[endTile[0]][endTile[1]] = chessboard[startTile[0]][startTile[1]]
+    chessboard[startTile[0]][startTile[1]] = ''
+}
+
+function isPlayable (startTile, endTile) {
+    return true
+}
