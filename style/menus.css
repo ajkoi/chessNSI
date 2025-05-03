@@ -16,7 +16,7 @@
 }
 
 
-.menu{
+#menu{
     height: 100%;
     width: 210px;
     position: fixed;
@@ -29,28 +29,28 @@
 
 }
 
-.menu ul {
+#menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 
 }
-.menu li {
+#menu li {
     font-size: 25px;
 
 }
 
-.menu a{
+#menu a{
     display: block;
     text-decoration: none;
     color: var(--var_text_bandeau);
     padding: 10px 15px 10px 10px;
 }
-.menu a:hover{
+#menu a:hover{
     background: var(--var_a_hover);
 }
 
-.menu button{
+#menu button{
     font-family: symbols, monospace;
     background-color: var(--var_main_bandeau);
     border: None;

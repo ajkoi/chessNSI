@@ -7,23 +7,19 @@
     <link rel="stylesheet" href="style/style_news.css" type="text/css">
     <link rel="stylesheet" href="style/menus.css" type="text/css">
     <link rel="stylesheet" href="style/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 <!--la partie div (en particulier div_1) represente le bandeau sur le cote (en commun avec les autres pages, a part la liste ul)-->
-<div class="menu">
-    <div class="div_img"><a href="index.html"><img src="images/menu/chessNSIhtml.png" alt="chessNSI.html" ></a></div>
-    <ul>
-        <li><a href="le_club.html">Le club</a></li>
-        <li><a href="tactique.html">Tactique</a></li>
-        <li><a href="">S'inscrire</a></li>
-        <li><a href="">Jouer</a></li>
-    </ul>
-    <div id="change-theme-button">
-        <img src="images/menu/sol_css.png" alt="mode clair" id="change-theme" class="img_menu">
-        <script src="scripts/change-theme.js"></script>
-<!--        <script>initThemeSwitcher()</script>-->
-    </div>
+<div id="menu">
+<script>
+    $(function (){
+        $('#menu').load('menu.html');
+    })
+
+</script>
 </div>
 
 <div class="text">
