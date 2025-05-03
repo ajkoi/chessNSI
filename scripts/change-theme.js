@@ -1,13 +1,10 @@
-function initThemeSwitcher() {
-    const button = document.getElementById('change-theme');
-    button.addEventListener('click', function() {
+    const my_img = document.getElementById('change-theme');
+    my_img.addEventListener('click', () => {
         document.body.classList.toggle('light_theme');
-
-        // Changer le texte du bouton en fonction du mode
-        if (document.body.classList.contains('light_theme')) {
-            button.textContent = '';
+        const my_img_now = my_img.getAttribute('src');
+        if (my_img_now === 'images/menu/lune_css.png') {
+            my_img.setAttribute('src', 'images/menu/lune_css.png');
         } else {
-            button.textContent = '';
+            my_img.setAttribute('src', 'images/menu/lune_css.png');
         }
     });
-}
