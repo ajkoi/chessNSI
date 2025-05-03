@@ -8,11 +8,11 @@
 }
 
 .light_theme{
-    --var_main_bandeau: rgb(153, 209, 219);
-    --var_complement_bandeau: rgb(33, 201, 210);
-    --var_img_bandeau: rgb(129, 200, 190);
+    --var_main_bandeau: rgb(205, 214, 244);
+    --var_complement_bandeau: rgb(139, 213, 202);
+    --var_img_bandeau: rgb(125, 196, 228);
     --var_text_bandeau: rgb(17, 17, 27);
-    --var_a_hover: rgb(115, 121, 148);
+    --var_a_hover: rgb(183, 193, 239);
 }
 
 

@@ -8,8 +8,8 @@
 }
 
 .light_theme{
-    --var_main: rgb(205, 214, 244);
-    --var_complement: rgb(33, 201, 210);
+    --var_main: rgb(220, 227, 251);
+    --var_complement: rgb(125, 196, 228);
     --var_text: rgb(17, 17, 27);
 }
 
