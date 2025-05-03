@@ -9,8 +9,8 @@
 
 .light_theme{
     --var_main_bandeau: rgb(153, 209, 219);
-    --var_complement_bandeau: rgb(23, 146, 153);
-    --var_img_bandeau: rgb(139, 213, 202);
+    --var_complement_bandeau: rgb(4, 165, 229);
+    --var_img_bandeau: rgb(129, 200, 190);
     --var_text_bandeau: rgb(17, 17, 27);
     --var_a_hover: rgb(115, 121, 148);
 }
