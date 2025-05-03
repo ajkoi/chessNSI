@@ -62,6 +62,7 @@
     border: 5px solid var(--var_img_bandeau);
     background-color: var(--var_complement_bandeau);
     margin-bottom: 10px;
+    width: 201px;
 }
 .div_img a{
     display: block;
@@ -73,3 +74,13 @@
     background-color: var(--var_img_bandeau);
 }
 
+.div_img img {
+    width: 190px;
+}
+#change-theme-button {
+    margin: 0 auto;
+
+}
+#change-theme-button img {
+    width: 200px;
+}
