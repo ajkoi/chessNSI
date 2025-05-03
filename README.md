@@ -17,3 +17,5 @@
     - [ ] dark theme
     - [ ] light theme
   - [ ] Un boutton pour changer de couleur
+     
+[la page](ajkoi.github.io/chessNSI)
