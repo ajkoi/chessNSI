@@ -18,4 +18,4 @@
     - [ ] light theme
   - [ ] Un boutton pour changer de couleur
      
-[la page](ajkoi.github.io/chessNSI)
+[la page](https://ajkoi.github.io/chessNSI/)
