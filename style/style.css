@@ -42,4 +42,6 @@ body {
     background: var(--var_main);
 }
 
-
+.img_club {
+    border-radius: 5px;
+}
