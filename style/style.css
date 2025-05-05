@@ -11,6 +11,8 @@
     --var_main: rgb(220, 227, 251);
     --var_complement: rgb(125, 196, 228);
     --var_text: rgb(17, 17, 27);
+    --surface-1: #45475a;
+    --surface-0: #313244;
 }
 
 @font-face {
@@ -36,7 +38,7 @@
     text-align: justify;
     padding: 20px;
     color: var(--var_text);
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", sans-serif;
 }
 body {
     background: var(--var_main);
