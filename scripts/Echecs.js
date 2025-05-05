@@ -37,7 +37,8 @@ function isPlayable (startTile, endTile) {
     // d'abord vérifier si le coup met en echec
     // puis si le coup est jouable
 
-    if (( chessboard[startTile[0]][startTile[1]] === 'R' || chessboard[startTile[0]][startTile[1]] === 'r' )){
+    // ROI
+    if ( chessboard[startTile[0]][startTile[1]] === 'R' || chessboard[startTile[0]][startTile[1]] === 'r' ){
         if (endTile[0] === startTile[0] + 1 || endTile[0] === startTile[0] || endTile[0] === startTile[0] - 1) {
             if (endTile[1] === startTile[1]+1 || endTile[1] === startTile[1] || endTile[1] === startTile[1] - 1) {
                 return true
@@ -46,8 +47,14 @@ function isPlayable (startTile, endTile) {
         } else {
             return false
         }
+    }
+
+    // CAVALIER
+
+    if (chessboard[startTile[0]][startTile[1]] === 'R' || chessboard[startTile[0]][startTile[1]] === 'r') {
 
     }
+
     // TODO : faire les autres pieces
 
     // à enlever qd tout les cas seront gérés
