@@ -12,7 +12,7 @@
     --var_complement: rgb(125, 196, 228);
     --var_text: rgb(17, 17, 27);
     --surface-1: #45475a;
-    --surface-0: #313244;
+    --surface-0: #ccd0da;
 }
 
 @font-face {
@@ -30,7 +30,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    left:219px;
+    left: 199px;
     /*margin-left: 5px;*/
     margin: 0;
     border: 5px solid var(--var_complement);

@@ -1,3 +1,20 @@
 .sect_tactique{
-    border: 5px solid var(--var_complement)
+    border: 5px solid var(--var_complement);
+    border-radius: 15px;
+}
+
+.H1_title {
+    padding-left: 15px;
+}
+
+.H2_subtitle {
+    padding-left: 20px;
+}
+
+.H3_sub {
+    padding-left: 10px;
+}
+
+.p_info {
+    padding: 5px;
 }
