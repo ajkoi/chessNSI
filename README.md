@@ -3,8 +3,8 @@
 
 ### kekifaufére:
 - [ ] le squelette de la page
-  - [ ] Les menus
-  - [ ] Les pubs
+  - [x] Les menus
+  - [X] Les pubs
 - [ ] le jeu d'échecs intégré
   - [ ] Séparation en plus petites taches
 - [ ] le formulaire de login
@@ -16,6 +16,6 @@
   - [ ] Les palettes
     - [ ] dark theme
     - [ ] light theme
-  - [ ] Un boutton pour changer de couleur
+  - [x] Un boutton pour changer de couleur
      
 [la page](https://ajkoi.github.io/chessNSI/)
