@@ -22,8 +22,12 @@ function jouerCoup (startTile, endTile) {
     * startTile: tuple(int, int)
     * endTile: tuple(int, int) */
     if (isPlayable(startTile, endTile)) {
-        chessboard[endTile[0]][endTile[1]] = chessboard[startTile[0]][startTile[1]]
-        chessboard[startTile[0]][startTile[1]] = ''
+        if (isItaRoque(startTile, endTile)) {
+            // ROQUE PUTAIN DE MERDE
+        } else {
+            chessboard[endTile[0]][endTile[1]] = chessboard[startTile[0]][startTile[1]]
+            chessboard[startTile[0]][startTile[1]] = ''
+        }
     }
 }
 
