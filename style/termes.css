@@ -2,6 +2,7 @@
 .div_H2 {
     border: 5px solid var(--var_complement);
     border-radius: 15px;
+    margin: 10px;
 }
 
 .H1_title {
