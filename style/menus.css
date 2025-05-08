@@ -89,5 +89,7 @@
 }
 
 #menu video {
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
