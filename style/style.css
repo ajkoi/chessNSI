@@ -1,3 +1,5 @@
+/*Definition des theme de couleur*/
+
 /*dark theme */
 :root {
     --var_main: rgb(17, 17, 27);
@@ -15,10 +17,35 @@
     --surface-0: #ccd0da;
 }
 
+/*Ensemble des specifications générales, h1,h2,p...*/
+h1 {
+    color: var(--var_text);
+    padding-left: 15px;
+}
+
+h2 {
+    color: var(--var_text);
+    padding-left: 25px;
+}
+
+h3 {
+    color: var(--var_text);
+    padding-left: 30px;
+}
+
+
+p {
+    color: var(--var_text);
+    padding: 20px;
+}
+
+
+
 @font-face {
     font-family: DepartureMono;
     src: url("../fonts/departure.otf");
 }
+
 @font-face {
     font-family: symbols;
     src: url("../fonts/symbols.ttf");
@@ -40,6 +67,7 @@
     color: var(--var_text);
     font-family: "Century Gothic", sans-serif;
 }
+
 body {
     background: var(--var_main);
 }

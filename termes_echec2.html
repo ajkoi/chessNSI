@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chess.html</title>
+    <link rel="stylesheet" href="style/menus.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <link rel="stylesheet" href="style/termes.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        function ChangeDisplay(elem)
+            {
+                if (getComputedStyle(elem).display != "none") 
+                    {elem.style.display = "none"}
+
+                else {elem.style.display = "unset"}
+            }
+    </script>
+
+</head>
+
+<body>
+    <div id="menu">
+        <script>
+            $(function (){
+                $('#menu').load('menu.html');
+            })
+
+        </script>
+    </div>
+
+    <div class="text">
+        <h1>Termes échiquéens</h1>
+        <div class="div_H2">
+            <h2 id="regle">Règles du jeu</h2>
+            <div>
+                <button class="button_h3" onclick="ChangeDisplay(div_regle_materiel)" style='cursor:pointer;'><h3 style="text-align: left;">Matériel</h3></button>
+                
+                <div id="div_regle_materiel" style="clear:both">
+                    <p style="float:left"><img src="images/illustration/regle/chessboard_start.png" alt="illustration d'un plateau" /></p>
+                    <p>Pour jouer aux échecs, les joueurs ont besoin au minimum d'un jeu de pièces et d'un échiquier. Une pendule est également nécessaire si les joueurs décident de disputer une partie avec une contrainte de temps. De plus, les joueurs utilisent souvent une feuille de partie pour noter leurs coups et pouvoir reconstituer leur affrontement.
+                        <br><br>
+                        Un jeu de pièces d'échecs se compose de deux armées différentes, chacune contenant huit pions, deux cavaliers, deux fous, deux tours, une dame et un roi. Les joueurs peuvent distinguer leurs pièces grâce à leur couleur, soit noires soit blanches, réminiscence des pièces en ivoire et en ébène utilisées par le passé.
+                        <br><br>
+                        L'échiquier est un plateau de 8 cases colorées sur 8 avec une alternance parfaite entre le noir et blanc, formant un damier de 64 cases. Il est divisé en huit colonnes et huit rangées.
+                        <br><br>
+                        Les pendules d'échecs permettent d'indiquer à tout moment le temps restant à chaque joueur. Elles peuvent également leur ajouter du temps supplémentaire après qu'ils aient effectué un coup (appelé incrément).
+                    </p>
+                </div>
+
+                <button class="button_h3" onclick="ChangeDisplay(div_regle_valeur)" style='cursor:pointer;'><h3 style="text-align: left;">Valeur des pièces</h3></button>
+
+                <div id="div_regle_valeur" style="clear:both">
+                    <p>Les pions valent un point et ne sont pas considérés comme des pièces à part entière. Les cavaliers et les fous sont estimés à trois points, bien que les ordinateurs évaluent un tantinet mieux les arpenteurs des diagonales que les sauteurs d'obstacles. Ces deux pièces sont qualifiées de "mineures".
+                        <br><br>
+                        Les tours valent cinq points et la dame 9.5. Elles sont toutes classées comme pièces "lourdes". Le roi est la pièce la plus précieuse aux échecs - le "perdre" coûte la victoire.
+                        <br><br>
+                        Notez que la valeur des pièces n'est qu'un concept abstrait et ne détermine pas l'issue d'une partie. Un joueur peut gagner beaucoup de matériel mais s'incliner si son adversaire parvient à le mater .
+                    </p>
+                </div>
+            
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
