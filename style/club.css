@@ -11,5 +11,33 @@
 }
 
 .case_rempli {
-    background-color: var(--surface-1); border-radius: 5px;
+    background-color: var(--surface-1);
+    border-radius: 5px;
+}
+
+.club_pres {
+    float: right;
+}
+
+.club_pres img {
+    border-radius: 10px;
+    height: 50px;
+}
+
+.club_vice-pres {
+    float: left;
+}
+
+.club_vice-pres img {
+    border-radius: 10px;
+    height: 50px;
+}
+
+.club_co-vice-pres {
+    float: right;
+}
+
+.club_co-vice-pres img {
+    border-radius: 10px;
+    height: 50px;
 }
