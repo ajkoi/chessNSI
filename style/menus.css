@@ -85,9 +85,11 @@
 
 }
 #change-theme-button img {
-    width: 150px;
+    width: 125px;
 }
 
 #menu video {
+    width: 20px;
+    margin-left: 80;
     display: block;
 }

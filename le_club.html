@@ -1,26 +1,56 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/menus.css" type="text/css">
     <link rel="stylesheet" href="style/style.css" type="text/css">
+    <link rel="stylesheet" href="style/club.css" type="text/css">
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>A propos de ChessNSI</title>
 </head>
 <body>
-<div id="menu">
-    <script>
-        $(function (){
-            $('#menu').load('menu.html');
-        })
+    <div id="menu">
+        <script>
+            $(function (){
+                $('#menu').load('menu.html');
+            })
 
-    </script>
-</div>
+        </script>
+    </div>
+
+    
 <div class="text">
     <h1>A propos du club</h1>
-    <h2>Présentation du club</h2>
-    <p>Le club échec (scolaire) est un club pour les gens qui aiment ... les échecs</p>
-    <h2> Les membres</h2>
+        <h2>Présentation du club</h2>
+        <p>Le club échec (scolaire) est un club pour les gens qui aiment ... les échecs, c'est aussi un moment convivial qui permet à ses membres de se changer les idées et de manger en priorité.</p>
+            <h3>Horaires</h3>
+            <p>Le club se réunit 3 fois par semaine dans le salle 201 (salle égalemant partagé avec d'autres club du lycée, toutefois cette colocation entre ces clubs se passent à merveille sans la moindre once de tension).</p>
+            <table class="tabl_horaire">
+                <tr style="height: 35px;">
+                    <th style="width: 35px;">Heure</th>
+                    <th style="width:100px;">Lundi</th>
+                    <th style="width:100px;">Mardi</th>
+                    <th style="width:100px;">Jeudi</th>
+                    <th style="width:100px;">Vendredi</th>
+                </tr>
+                <tr style="height: 35px;">
+                    <td style="width: 35px;">12h-13h</td>
+                    <td style="width:100px;"></td>
+                    <td class="case_rempli" style="width:100px;">Club Echec</td>
+                    <td class="case_rempli" style="width:100px;">Club Echec</td>
+                    <td style="width:100px;"></td>
+                </tr>
+                <tr style="height: 35px;">
+                    <td style="width: 35px;">13h-14h</td>
+                    <td style="width:100px;"></td>
+                    <td style="width:100px;"></td>
+                    <td style="width:100px;"></td>
+                    <td class="case_rempli" style="width:100px;">Club Echec</td>
+                </tr>
+            </table>
+        <h2> Les membres</h2>
+        <h2>Vie du club</h2>
     <img class="img_club" src="https://picsum.photos/100" alt="le président">
 </div>
 
