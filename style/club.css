@@ -15,38 +15,13 @@
     border-radius: 5px;
 }
 
-.club_pres {
-    vertical-align: middle;
-}
-.p_club_pres {
-    float: right;
+.club {
+    margin: 20px;
 }
 
-.club_pres img {
-    border-radius: 50px;
-    height: 250px;
-}
-
-.club_vice-pres {
-    vertical-align: middle;
-}
-.p_club_vice-pres {
+.club img {
     float: left;
-}
-
-.club_vice-pres img {
     border-radius: 50px;
     height: 250px;
-}
-
-.club_co-vice-pres {
-    vertical-align: middle;
-}
-.p_club_co-vice-pres {
-    float: right;
-}
-
-.club_co-vice-pres img {
-    border-radius: 50px;
-    height: 250px;
+    margin: 10px;
 }
