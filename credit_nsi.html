@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Paiement</title>
+    <link rel="icon" href="images/credit_nsi/credit_nsi.png" type="image/gif">
+
+    <link rel="stylesheet" href="style/menus.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <link rel="stylesheet" href="style/termes.css" type="text/css">
+    <link rel="stylesheet" href="style/credit_nsi.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="top_auth">
+            <img class="img_logo" src="images/credit_nsi/credit_nsi.png" alt="Crédit NSI">
+            <img class="img_visa" src="images/credit_nsi/credit_visa.png" alt="Moyen de Paiement">
+            <p class="p_auth">Authentification faible</p>
+
+    </div>
+
+    <div class="band_turquoise"></div>
+
+    <div class="main_div">
+        <div class="resume_div">
+            <div>
+                <h2 class="title_res">Résumé de la transaction</h2>
+            </div>
+
+            <div class="res_info">
+
+                <div class="res_fix">
+                    <p>Marchand:</p>
+                    <br>
+                    <p>Montant:</p>
+                    <br>
+                    <p>Date:</p>
+                    <br>
+                    <p>N° de carte:</p>
+                    <br>
+                    <p>N° de téléphone:</p>
+                </div>
+
+                <div class="res_var" style="clear: both;">
+                    <p>Chess NSI</p>
+                    <br>
+                    <p class="txt_var_val">------</p>         <!-- à completer, valeur entree dans formulaire (*100)-->
+                    <br>
+                    <p class="txt_var_heur">------</p>        <!-- à completer, obtenir heure par script-->
+                    <br>
+                    <p class="txt_var_cb">------</p>          <!-- à completer, nb au hasard par script/obtenir du formulaire--> <!--5341 0282 0800 7359-->
+                    <br>
+                    <p class="txt_var_tel">------</p>         <!-- à completer, valeur entree dans le formulaire -->
+                </div>
+            </div>
+        </div>
+
+        <div class="code_div">
+            <h2>Saisir votre Code Achat Internet:</h2>
+            <p>
+                Pour "sécuriser" votre achat en ligne, veuillez proceder à la première étape de l'Authentification Faible en saisissant le code achat internet.
+            </p>
+
+            <p><span class="cad">Code Achat Internet</span></p>
+
+            <input type="text" id="input_code">
+
+            <br>
+            <button id="button_valid">Valider</button>
+            <br>
+
+            <p>Pour tout problème, merci de contacter votre agence problème ou votre conseiller.</p>
+
+        </div>
+
+    </div>
+
+    <div class="D_band_turquoise"></div>
+
+
+
+</body>
+
+</html>
+
+
+
