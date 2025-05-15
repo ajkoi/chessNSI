@@ -13,6 +13,12 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
+    <script>
+        document.getElementById('txt_var_date').innerHTML = Date();  
+    </script>
+
+
+
 
 </head>
 
@@ -51,7 +57,13 @@
                     <br>
                     <p class="txt_var_val">------</p>         <!-- à completer, valeur entree dans formulaire (*100)-->
                     <br>
-                    <p class="txt_var_heur">------</p>        <!-- à completer, obtenir heure par script-->
+                    <p id="txt_var_date" ></p>        <!-- à completer, obtenir heure par script-->
+                    <script>
+                        let date_prim = Date()
+                        let date = date_prim.slice(4,21)
+
+                        document.getElementById('txt_var_date').innerHTML = date;  
+                    </script>
                     <br>
                     <p class="txt_var_cb">------</p>          <!-- à completer, nb au hasard par script/obtenir du formulaire--> <!--5341 0282 0800 7359-->
                     <br>
@@ -71,7 +83,7 @@
             <input type="text" id="input_code">
 
             <br>
-            <button id="button_valid">Valider</button>
+            <button id="button_valid" href="">Valider</button>
             <br>
 
             <p>Pour tout problème, merci de contacter votre agence problème ou votre conseiller.</p>
